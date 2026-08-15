@@ -1,7 +1,7 @@
-# **12.1 — Deterministic Sampling Stability Across Model Scales**  
+# Deterministic Sampling Stability Across Model Scales  
 ### *Sub‑module of Project 12.0 — Scaling–Precision Ideation Lab*
 
-This experiment evaluates how **model parameter scale** influences **token‑level determinism**, **entropy**, and **sequence stability** under *identical decoding conditions*. Using a unified `llama.cpp` harness and the probabilistic verification pipeline from Project 11.0, we compare models from **270M → 70B parameters** to determine whether smaller LLMs truly behave “more deterministically” or simply exhibit **collapsed probability distributions**.
+This experiment evaluates how model parameter scale influences token‑level determinism, entropy, and sequence stability under *identical decoding conditions*. Using a unified `llama.cpp` harness and the probabilistic verification pipeline from Project 11.0, we compare models from 270M → 70B parameters to determine whether smaller LLMs truly behave “more deterministically” or simply exhibit collapsed probability distributions.
 
 ---
 
