@@ -1,7 +1,26 @@
-# Deterministic Sampling Stability Across Model Scales  
-### *Sub‑module of Project 12.0 — Scaling–Precision Ideation Lab*
+`2026-1016-D-read-001.md`  
 
-This experiment evaluates how model parameter scale influences token‑level determinism, entropy, and sequence stability under *identical decoding conditions*. Using a unified `llama.cpp` harness and the probabilistic verification pipeline from Project 11.0, we compare models from 270M → 70B parameters to determine whether smaller LLMs truly behave “more deterministically” or simply exhibit collapsed probability distributions.
+---
+
+**CLASSIFICATION**: D  
+
+**Document Reference**: `2026-1016-D-read-001`  
+# Deterministic Sampling Stability Across Model Scales  
+### Project    
+
+**Type**: read   
+**Classification**: D  
+**Version**: 0.1       
+
+William Murray  
+Systems Architect  
+15 August 2026  
+
+**Status**: Draft     
+
+**Scope**: A controlled experimental module analysing token‑level determinism, entropy behaviour, and sequence stability across LLMs ranging from 270M → 70B parameters under identical decoding conditions. Uses a unified llama.cpp harness and the probabilistic‑verification substrate from Project 11 to measure inter‑run variance, greedy‑alignment drift, semantic divergence, and logit‑distribution behaviour across seeds, quantization levels, and sampling configurations. Serves as a disciplined framework for testing whether small‑scale models are genuinely more deterministic or simply exhibit collapsed probability distributions due to reduced latent capacity.  
+
+**Primary Model / Scheme**: Deterministic‑Sampling Stability Scheme v0.1 — defines controlled‑temperature decoding rules, entropy‑measurement procedures, inter‑run variance metrics, logit‑distribution analysis, and cross‑scale comparison protocols. Establishes the formal substrate for evaluating determinism fallacies, latent‑capacity effects, temperature‑scaling behaviour, and stability envelopes across heterogeneous model sizes within a reproducible inference harness.  
 
 ---
 
