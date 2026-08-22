@@ -1,10 +1,10 @@
-`2026-1016-D-read-001.md`  
+`2026-1010-D/README.md`  
 
 ---
 
 **CLASSIFICATION**: D  
 
-**Document Reference**: `2026-1016-D-read-001`  
+**Document Reference**: `2026-1010-D-read-000`  
 # Deterministic Sampling Stability Across Model Scales  
 ### Project    
 
